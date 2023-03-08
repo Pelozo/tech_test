@@ -1,0 +1,3 @@
+TMDB_URL="https://api.themoviedb.org/3/"
+TMDB_API="<Your API key here>"
+PROFILE_URL="https://mocki.io/v1/"

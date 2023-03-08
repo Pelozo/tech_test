@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TMDB_challenge</string>
+    <string name="action_profile">Perfil</string>
+    <string name="action_movies">Películas</string>
+    <string name="action_locations">Ubicaciones</string>
+    <string name="action_images">Imagenes</string>
+    <string name="home_fragment_label">Home</string>
+    <string name="details_fragment_label">Details</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="popular">Popular</string>
+    <string name="top_rated">Tendencia</string>
+    <string name="recommended">Recomendados</string>
+    <string name="no_results">Sin resultados</string>
+    <string name="movie_plot">Descripción</string>
+    <string name="watch_trailer">Ver trailer</string>
+    <string name="watch_trailer_error">No se pudo cargar el trailer</string>
+    <string name="title_home">Home</string>
+    <string name="upload_image_title">Subir imagen</string>
+    <string name="error_loading_data">Error cargando información</string>
+    <string name="try_later">Intente más tarde</string>
+    <string name="ok">OK</string>
+    <string name="upload_from_gallery">Subir desde galeria</string>
+    <string name="upload_from_camera">Subir desde cámara</string>
+    <string name="rationale_title">Ese permiso es necesario</string>
+    <string name="rationale_description">El permiso denegado es necesario para el correcto funcionamiento de la aplicación, considera otorgarlo desde la configuración del sistema</string>
+    <string name="notif_title_uploading_location">Subiendo ubicación</string>
+
+    <string name="success_uploading_image">Imagen cargada correctamente</string>
+    <string name="error_uploading_image">Error cargadando imagen, intente más tarde</string>
+    <string name="welcome_message">¡Bienvenido %1$s!</string>
+    <string name="your_movies_rated">Tus peliculas calificadas</string>
+
+
+
+</resources>

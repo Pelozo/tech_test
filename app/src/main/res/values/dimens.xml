@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="padding_default">16dp</dimen>
+
+    <dimen name="margin_item_separator">16dp</dimen>
+</resources>

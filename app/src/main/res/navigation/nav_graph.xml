@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_profile">
+
+    <fragment
+        android:id="@+id/navigation_movies"
+        android:name="com.example.tmdb_challenge.modules.movies.view.MoviesFragment"
+        android:label="@string/home_fragment_label"
+        tools:layout="@layout/fragment_movies">
+
+        <action
+            android:id="@+id/action_MoviesFragment_to_MovieDetailsFragment"
+            app:destination="@id/MovieDetailsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/MovieDetailsFragment"
+        android:name="com.example.tmdb_challenge.modules.movieDetails.view.MovieDetailsFragment"
+        android:label="@string/details_fragment_label"
+        tools:layout="@layout/fragment_movie_details">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/navigation_movies" />
+
+        <argument
+            android:name="movie"
+            app:argType="com.example.tmdb_challenge.domain.models.Movie"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.tmdb_challenge.modules.profile.view.ProfileFragment"
+        android:label="@string/action_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_locations"
+        android:name="com.example.tmdb_challenge.modules.locations.view.LocationsFragment"
+        android:label="@string/action_locations"
+        tools:layout="@layout/fragment_location" />
+
+    <fragment
+        android:id="@+id/navigation_images"
+        android:name="com.example.tmdb_challenge.modules.images.view.ImagesFragment"
+        android:label="@string/action_images"
+        tools:layout="@layout/fragment_images" />
+
+
+</navigation>
